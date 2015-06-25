@@ -1,4 +1,5 @@
-FROM piotrminkina/alpine:3.2
+#FROM piotrminkina/alpine:3.2
+FROM alpine
 
 RUN apk --update add ca-certificates gnupg
 RUN wget -qO /usr/local/bin/gosu "https://github.com/tianon/gosu/releases/download/1.4/gosu-amd64"
